@@ -1,0 +1,255 @@
+<style>
+body {
+    font-family:Verdana,sans-serif;font-size:0.8em;
+	text-align: center;
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;
+	background :-webkit-linear-gradient(top,white,black);
+	}
+#bigb{
+	max-width:10000px;
+	margin:20px 0px;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+		background :-webkit-linear-gradient(top,white,black);
+}
+table#to1{
+	display:-webkit-box;
+	border-spacing: 2px;
+	width:250px;
+}
+table#t01 tr:nth-child(even) {
+	  padding: 15px;
+    background-color: #eee;
+	-webkit-box-flex:1;
+	
+}
+table#t01 tr:nth-child(odd) {
+	  padding: 0px,15px;
+    background-color: #fff;
+	-webkit-box-flex:1;
+}
+table#t01 th {
+    color: white;
+	  padding: 15px;
+	-webkit-box-flex:1;
+    background-color: black;
+}
+table#t01 td{
+	padding:15px;
+}
+
+header{
+	font-family:sans-serif;
+	font-size:3em;
+	border:1px solid grey;
+	margin:5px;
+	padding:28px;
+	background-color:black;
+	text-align:center;
+	color:white;
+	-webkit-border-radius:25px;
+	-webkit-box-shadow:white 8px 8px 8px;
+	text-shadow:black 8px 8px 8px;
+}
+#imgs{
+	top:30px;
+	position: relative;
+    bottom: 10px;
+    left: 10px;
+		display:-webkit-box;
+	-webkit-box-pack:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#top_menu{
+	background-color:white;
+	color:white;
+	border:3px:solid black;
+		display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-border-radius:25px;
+	-webkit-box-shadow:grey 8px 8px 16px;
+}
+#top_menu li {
+	display:inline-block;
+	padding:5px;
+	list-style:none;
+	font:33px bold Thoma;
+	width:auto;
+	margin:15px;
+	text-shadow: white 1px 1px 2px;
+
+}
+#about{
+		-webkit-box-flex:1;
+}
+#ihh{
+	position:relative;
+	left:180px;
+	width:620px;
+	border:4px solid black;
+}
+#ikon {
+	display:inline-block;
+	width:auto;
+	margin:0px;
+	padding:none;
+	-webkit-transition:-webkit-transform 1.2s;
+}
+
+#ikon:hover {
+	-webkit-transform: scale(2.75);
+}
+
+#sur1,h4{
+	background:red;
+	background-color:red;
+	color:black;
+	text-align:center;
+	font-size:7px;
+}
+#sur,h4{
+	background-color:yellow;
+	color:red;
+}
+h2,h3{
+	font-color:white;
+}
+h2{
+	background-color:yellow;
+}
+h3{
+	background-color:#ff99ff;
+}
+#cater,#about{
+	max-width:900px;
+
+	font-family:sans-serif;
+	font-size:2em;
+	border:1px solid grey;
+	margin:5px;
+	padding:20px;
+	background-color:yellow;
+	text-align:center;
+	color:black;
+			-webkit-box-flex:1;
+	-webkit-border-radius:25px;
+}
+h1{
+	font-family:comic sans;
+	font-size:20px;
+	background-color:white;
+	color:#ASDFGH;
+	padding:10px;
+	border:2px solid black;
+	-webkit-border-radius:25px;
+}
+#main_section{
+	float:left;
+		-webkit-box-orient:horizontal;
+	text-align:center;
+	-webkit-box-pack:center;
+	border:3px solid black;
+	padding:0px;
+	max-width:960px;
+	max-height:111100px;
+	margin:5px;
+	background-color:black;
+	-webkit-border-radius:25px;
+		-webkit-box-shadow:grey 8px 8px 16px;
+}
+
+#container,#myCarousel{
+	max-width:900px;
+	max-height:600px;
+	border:	2px solid white;
+	-webkit-box-pack:center;
+}
+ #paifoods{
+	 background:red;
+	float:left;
+	width:178px;
+	height:178px;
+	margin:10px;
+	border:2px solid black ;
+	padding:3px;
+	-webkit-border-radius:2px;
+		-webkit-box-shadow:grey 8px 8px 16px;
+			-webkit-transition:-webkit-transform 1.2s;
+}
+#paifoods:hover {
+	-webkit-transform: scale(1.5);
+}
+.Abts {
+	background-color:#fe1a00;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:17px 74px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.Abts:hover {
+	background-color:#ce0100;
+}
+.Abts:active {
+	position:relative;
+	top:1px;
+}
+#credits{
+	float:right;
+	background:black;
+	color:white;
+	
+}
+.Abts {
+	background-color:#fe1a00;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:17px 74px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.Abts:hover {
+	background-color:#ce0100;
+}
+.Abts:active {
+	position:relative;
+	top:1px;
+}
+
+footer{
+	clear:both;
+	text-align:center;
+	border:2px solid green;
+	padding:4px;
+	
+}
+#newdiv{
+	display:webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+</style>
